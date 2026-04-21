@@ -5,7 +5,7 @@ form {
   border: 1px solid #f0922b;
   border-radius: 999px;
   padding: 10px 16px 10px 20px;
-  width: 80%;
+  width: 400px;
 }
 
 form:focus-within {
@@ -43,4 +43,10 @@ form:focus-within {
 .search-icon {
   width: 17px;
   height: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 250px;
+  }
 }
