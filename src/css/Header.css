@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background: #3d2314;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid #f0922b 1px;
+}
+
+.logo-name {
+    padding-left: 20px;
+    color: #fcc57a;
+    font-weight: 400;
+    margin: 0;
+}

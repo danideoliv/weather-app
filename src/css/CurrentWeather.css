@@ -1,0 +1,78 @@
+.current-card {
+    color: white;
+    background: #3d2314;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    border: solid #f0922b 1px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.current-card:hover {
+    transform: scale(1.02);
+}
+
+.temp-num {
+    font-size: 60px;
+    font-weight: 400;
+    color: #f0922b;
+    padding-right: 15px;
+}
+
+.temp-celcius {
+    font-size: 25px;
+    color: #fcc57a;
+}
+
+.city-name {
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+
+.state-country {
+    font-size: 20px;
+    color: #fcc57a;
+    font-weight: 400;
+    margin: 0;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info {
+  background: #1c1410;
+  border-radius: 15px;
+  width: 180px;
+  height: 60px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-title {
+  color: #fcc57a;
+  font-size: 14px;
+  margin: 0;
+}
+
+.info-value {
+  color: white;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .info {
+        width: 100%;
+        flex: none;
+    }
+}

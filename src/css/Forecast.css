@@ -1,0 +1,45 @@
+.forecast-card {
+    color: white;
+    background: #3d2314;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid #f0922b 1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.forecast-card:hover {
+    transform: scale(1.08);
+}
+
+.forecast-card * {
+    margin: 0;
+}
+
+.icon {
+    padding: 5px 0;
+    width: 40px;
+    height: 40px;
+}
+
+.week-day {
+    color: #fcc57a;
+    font-size: 14px;
+}
+
+.temp-min {
+    color: #f0922b;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+    .forecast-card {
+        width: 100%;
+        /* flex: none; */
+    }
+}
