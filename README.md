@@ -32,7 +32,7 @@ A clean, responsive weather app built with React and the OpenWeather API. Search
 ### 1. Clone the repository
  
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/danideoliv/weather-app.git
 cd weather-app
 ```
  
